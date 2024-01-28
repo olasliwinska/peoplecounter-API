@@ -30,7 +30,7 @@ class PeopleCounterURL(Resource):
 
                 return {'count': len(boxes)}
 
-        return {'error': 'Podany URL nie jest poprawny lub brak parametru "url" w zapytaniu.'}
+        return {'error': 'Niepoprawne dane.'}
 
 
 class HelloWorld(Resource):
